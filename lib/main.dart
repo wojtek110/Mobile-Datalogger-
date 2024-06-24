@@ -127,6 +127,7 @@ StreamSubscription<GeoPosition.Position>? positionStreamSubscription;
     setState(() {
       polilines = {};
       poli=[];
+      print("Test");
     });
 
 }
