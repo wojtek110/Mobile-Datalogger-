@@ -42,3 +42,37 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+
+# Firebase config files
+android/app/google-services.json
+ios/Runner/GoogleService-Info.plist
+
+# Env files
+.env
+.env.*
+secrets.dart
+
+# Build and cache
+build/
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+pubspec.lock
+
+# iOS
+ios/Flutter/Flutter.podspec
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/Generated.xcconfig
+
+# macOS
+macos/Flutter/GeneratedPluginRegistrant.swift
+macos/Pods/
+macos/.symlinks/
+
+# Android
+android/.gradle/
+android/app/debug
+android/app/release
+
