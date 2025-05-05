@@ -1,16 +1,35 @@
-# projekt1
+#  Mobile DataLogger
 
-A new Flutter project.
+Aplikacja mobilna do rejestrowania danych z czujników telefonu wraz z trasą GPS, zbudowana w technologii Flutter. Projekt był częścią mojej pracy inżynierskiej pt.  
+**"Aplikacja rejestratora danych na urządzenia mobilne z wykorzystaniem technologii Flutter"**.
 
-## Getting Started
+##  O projekcie
 
-This project is a starting point for a Flutter application.
+Mobile DataLogger to aplikacja umożliwiająca zbieranie i zapisywanie danych z czujników urządzenia mobilnego w czasie rzeczywistym. Użytkownik widzi swoją trasę na mapie Google, a aplikacja zbiera dane z czujników i zapisuje je lokalnie lub w Firebase Realtime Database.
 
-A few resources to get you started if this is your first Flutter project:
+##  Kluczowe funkcje
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+-  Integracja z Mapami Google — wyświetlanie bieżącej lokalizacji i rysowanie pokonanej trasy
+-  Odczyt danych z czujników telefonu:
+  - Akcelerometr
+  - Żyroskop
+  - Magnetometr
+  - Czujnik światła
+  - GPS (prędkość, wysokość, dokładność)
+-  Możliwość zapisu danych:
+  - lokalnie w pliku (np. CSV lub JSON)
+  - w chmurze (Firebase Realtime Database)
+-  Uprawnienia i zarządzanie dostępem do czujników
+-  Rejestrowanie danych w czasie rzeczywistym za pomoca dynamicznych wykresów 
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🛠️ Technologie
+
+- Flutter (Dart)
+- Google Maps API
+- Firebase Realtime Database
+- Pakiety Fluttera:
+  - `google_maps_flutter`
+  - `firebase_database`
+  - `sensors_plus`
+  - `geolocator`
+  - i inne
