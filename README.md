@@ -22,7 +22,7 @@ Mobile DataLogger to aplikacja umożliwiająca zbieranie i zapisywanie danych z 
 -  Uprawnienia i zarządzanie dostępem do czujników
 -  Rejestrowanie danych w czasie rzeczywistym za pomoca dynamicznych wykresów 
 
-## 🛠️ Technologie
+##  Technologie
 
 - Flutter (Dart)
 - Google Maps API
